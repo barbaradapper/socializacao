@@ -1,0 +1,381 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#imgintro {
+    border: black Solid 5px;
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+header {
+    background-color: #7a8262;
+    color: #d1d6c6;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+
+}
+
+#logo {
+    width: 145px;
+    position: absolute;
+    top: 0.5px;
+    margin-left: 6%;
+}
+
+#menu ul {
+    padding: 1%;
+    margin: 0%;
+    background-color: #7a8262;
+    list-style: none;
+    float: right  
+     
+}
+
+#menu ul li {display: inline;}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: #7a8262;
+    color: #d1d6c6;
+    text-decoration: circle;
+    border-bottom: 3px solid #7a8262;
+    font-family: Montserrat, sans-serif !important;
+}
+
+#menu ul a li :hover { 
+    background-color: #7a8262;
+    color: #7a8262;
+    border-bottom: 3px solid #7a8262;
+    font-family: Montserrat, sans-serif !important;
+}
+
+
+
+#imagem_fundo {
+    background: url("imgfundo.jpeg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: #d1d6c6;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 0.4;
+    font-family: Montserrat, sans-serif !important;
+}
+
+#titulo1 {
+    color: #7a8262;
+    font-size: 70px;
+    text-align: center;
+    line-height: 0.4;
+    font-family: Montserrat, sans-serif !important;
+}
+
+#titulo2 {
+    color: #dba7a0;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 7%;
+    line-height: 0.4;
+    font-family: Montserrat, sans-serif !important;
+}
+
+#titulo3 {
+    color: #7a8262;
+    font-size: 40px;
+    text-align: center;
+    line-height: 0.4;
+    font-family: Montserrat, sans-serif !important;
+}
+
+#subtitulo {
+    color: rgb(0, 0, 0);
+    margin-left: 33.5%;
+    margin-right: 35%;
+    border-top: 2px solid rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif !important;
+}
+
+#txt1 {
+    color: rgb(255, 255, 255);
+    margin-left: 88px;
+    font-size: 12px;
+    text-align: center;
+}
+#txt2 {
+    color: rgb(255, 255, 255);
+    margin-left: 90px;
+    font-size: 12px;
+    text-align: center;
+}
+#txt3 {
+    color: rgb(255, 255, 255);
+    margin-left: 48%;
+    font-size: 12px;
+    text-align: center;
+}
+#txt4 {
+    color: rgb(255, 255, 255);
+    margin-left: 88px;
+    font-size: 12px;
+    text-align: center;
+}
+#conteudos {
+    color: #dba7a0;
+    font-family: Montserrat, sans-serif !important;
+    font-size: 16px;
+    padding-top: 0%;
+}
+
+#conteudos1 {
+    color: #dba7a0;
+    font-family: Montserrat, sans-serif !important;
+    font-size: 16px;
+    padding-top: 2%;
+   align-content: center;
+}
+
+#indicacao {
+    color: #dba7a0;
+    font-family: Montserrat, sans-serif !important;
+    font-size: 16px;
+    padding-top: 0%;
+}
+
+#sobre {
+    color: #dba7a0;
+    font-family: Montserrat, sans-serif !important;
+    font-size: 16px;
+    padding-top: 0%;
+}
+
+#contato {
+    color: #d0833b;
+    font-family: Montserrat, sans-serif !important;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 300px;
+    align-items: center;
+}
+
+.icones {
+    width: 250px; 
+    text-align: center; 
+}
+
+.icones:hover {
+    width: 255px; 
+    text-align: center; 
+}
+section {
+    padding: 20px;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.um {
+    width: 50%;
+    align-content: center;
+    margin-block-end: 10mm;
+    margin-left: 115mm;
+}
+
+.dois {
+    width: 40%;
+    margin-block-end: 10mm;
+}
+
+.tres {
+    width: 60%;
+    align-content: center;
+    margin-block-end: 8mm;
+    margin-left: 70mm;
+}
+
+.justificado {
+    text-align: justify;
+    font-family: Montserrat, sans-serif !important;
+    word-spacing: 1mm;
+    font-size: 5mm;
+}
+
+.espacamento2 {
+    margin-top: 110px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.titulointroducao {
+    font-family: Montserrat, sans-serif !important;
+    color: #4e3a34;
+    font-size: 17px;
+}
+
+.titulosobrenos {
+    font-family: Montserrat, sans-serif !important;
+}
+
+footer2 {
+    background-color: #f7f0ea;
+    float: left;
+    width: 100%;
+    height: 70%;
+    color: white;
+}
+
+footer3 {
+    background-color:#fdfdfd;
+    float: left;
+    width: 100%;
+    height: 70%;
+    color: white;
+}
+
+
+@media all and (max-width: 762px) {
+   #menu {
+       visibility: hidden;
+   } 
+   .coluna, .dois, .tres, .quatro {
+        display: block;   
+        width: 80%;
+        padding-bottom: 10%;
+        margin: 10px auto;
+        float: none;
+   }
+
+ .espacamento2 {
+     margin-top: 10px;
+ }
+
+   #subtitulo {
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+    margin-right: 35%;
+    border-top: 2px solid rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif !important;
+}
+
+.centralizado1 {
+    text-align: center;
+}
+
+#txt1 {
+    color: rgb(255, 255, 255);
+    margin-left: 4px;
+}
+#txt2 {
+    color: rgb(255, 255, 255);
+    margin-left: 4px;
+}
+#txt3 {
+    color: rgb(255, 255, 255);
+    margin-left: 4px;
+}
+#txt4 {
+    color: rgb(255, 255, 255);
+    margin-left: 4px;
+}
+
+#titulo {
+    color: #000000;
+    padding-top: 30%;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1;
+    margin-left: 21%;
+    margin-right: 34%;
+    font-family: Montserrat, sans-serif !important;
+}
+
+#titulo1 {
+    color: #4e3a34;
+    font-size: 45px;
+    text-align: center;
+    line-height: 0.4;
+    margin-left: 7%;
+    margin-right: 14%;
+    font-family: Montserrat, sans-serif !important;
+}
+
+footer2 {
+    background-color: #d9d4c3;
+    float: left;
+    width: 100%;
+    height: 1295px;
+    color: white;
+    text-align: center;
+}
+
+footer2 {
+    background-color: white;
+    float: left;
+    width: 100%;
+    height: 1295px;
+    color: white;
+    text-align: center;
+}
+
+#imagem_fundo {
+    background: #d6d4c3 ;
+    height: 80%;
+    background-size: cover;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    width: 90%;
+}
+
+   #logodiv {
+       width: 100%;
+       position: relative;
+       text-align: center;
+       padding: 0px;
+   }
+   #logo {
+       margin-left: 0px;
+       transform: translateX(-50%);
+   }
+
+   @font-face {
+    font-family: Maddac;
+    src: url(FontsFree-Net-Maddac.ttf);
+   }
+}
